@@ -1,6 +1,6 @@
 function UsersEntry(){
     return(
-        <>
+        <div className="flex justify-center items-center">
             <div className="stats shadow w-3/4 mt-20">
             <div className="stat">
                 <div className="stat-figure text-secondary">
@@ -63,7 +63,7 @@ function UsersEntry(){
                 <div className="stat-desc">↘︎ 90 (14%)</div>
             </div>
             </div>
-        </>
+        </div>
     );
 }
 
